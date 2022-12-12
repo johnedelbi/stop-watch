@@ -58,6 +58,7 @@ body {
 
 .button {
     margin: 15px;
-    font-size: 20px;
-    padding: 10px 20px;
+    font-size: 24px;
+    padding: 10px 25px;
+    border-radius: 15px;
 }
