@@ -1,6 +1,6 @@
-import startTimerHandler from "../handlers/startTimerHandler"
+import { startTimerHandler } from "../handlers/startTimerHandler.js"
 
-export default function () {
-    document.getElementById('start').addEventListener('onclick', startTimer)
+export const startButtonListener = () => {
+    document.getElementById('start').addEventListener('click', startTimerHandler)
 
 }

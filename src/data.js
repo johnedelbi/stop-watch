@@ -1,6 +1,7 @@
-const data = {
-    hours: 0,
-    minute: 0,
+export const data = {
+    minutes: 0,
     seconds: 0,
+    milliseconds: 0,
+    interval: null,
 
 };
