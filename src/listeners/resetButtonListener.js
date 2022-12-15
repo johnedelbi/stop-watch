@@ -1,6 +1,6 @@
-import resetTimerHandler from "../handlers/resetTimerHandler"
+import { resetTimerHandler } from "../handlers/resetTimerHandler.js"
 
-export default function () {
-    document.getElementById('reset').addEventListener('onclick', resetTimer)
+export const resetButtonListener = () => {
+    document.getElementById('reset').addEventListener('click', resetTimerHandler)
 
 }

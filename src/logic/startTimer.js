@@ -17,7 +17,6 @@ export const getWatchTime = () => {
     if (data.minutes === 60) {
         data.minutes = 0
     }
-
     return data;
 
 };

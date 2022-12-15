@@ -1,6 +1,6 @@
-import pauseTimerHandler from "../handlers/pauseTimerHandler"
+import { pauseTimerHandler } from "../handlers/pauseTimerHandler.js"
 
-export default function () {
-    document.getElementById('pause').addEventListener('onclick', pauseTimer)
+export const pauseButtonListener = () => {
+    document.getElementById('pause').addEventListener('click', pauseTimerHandler)
 
 }

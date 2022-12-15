@@ -8,9 +8,9 @@ export const startTimerHandler = () => {
         data.interval = clearInterval(data.interval);
     }
     data.interval = setInterval(function () {
-        let time = getWatchTime();
-        const timeComponent = getTimeComponent(time);
-        document.getElementById('timer').innerHTML = ""
+        let timeWatch = getWatchTime();
+        const timeComponent = getTimeComponent(timeWatch);
+        document.getElementById('timer').innerHTML = "";
         document.getElementById('timer').append(timeComponent);
     }, 10)
 
