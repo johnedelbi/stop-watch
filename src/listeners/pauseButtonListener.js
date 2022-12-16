@@ -1,6 +1,6 @@
 import { pauseTimerHandler } from "../handlers/pauseTimerHandler.js"
 
+const pause = document.getElementById('pause');
 export const pauseButtonListener = () => {
-    document.getElementById('pause').addEventListener('click', pauseTimerHandler)
-
+    pause.addEventListener('click', pauseTimerHandler)
 }
